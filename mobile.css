@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 8px;
+    }
+
+    #navBar,
+    #navBarChild1,
+    #aboutSection,
+    #ourProgramsChild1,
+    #ourWorkDiv,
+    #ourWorkSection,
+    #ourProgramsSection,
+    #teamLeadersSection,
+    #teamLeadersChild1,
+    #certificateSection,
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        align-items: center;
+    }
+
+    #navOptsDiv,
+    #navOptsDiv ul {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #introSection div h1 {
+        font-size: 12vw;
+        padding-top: 16vw;
+    }
+
+    #ngoImage1 {
+        width: 90vw;
+    }
+
+    footer {
+        display: none;
+    }
+}

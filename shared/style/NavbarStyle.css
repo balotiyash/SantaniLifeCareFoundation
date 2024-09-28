@@ -1,0 +1,81 @@
+/*
+ * File: shared/style/NavbarStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the navbar
+ * Created on: 07/06/2024
+ * Last Modified: 06/08/2024
+**/
+
+/* Main Navbar */
+#navBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    z-index: 5;
+}
+
+#navBarChild1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+#navbarLogo {
+    width: 150px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+/* Links */
+#navOptsDiv {
+    width: 550px;
+}
+
+#navOptsDiv ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+#navOptsDiv ul li a {
+    /* color: #212529; */
+    color: #5a5d60;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#navOptsDiv ul li a {
+    text-decoration: none;
+}
+
+#navOptsDiv ul li a:hover {
+    color: green;
+}
+
+#aboutUsBtn {
+    /* background-color: transparent; */
+}
+
+/* Know more btn */
+.knowMoreBtn {
+    background-color: #3b8a69;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 500px;
+    transition: 0.3s ease;
+}
+
+.knowMoreBtn:hover {
+    background-color: #064b69;
+}
