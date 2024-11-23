@@ -1,0 +1,59 @@
+/*
+ * File: user/style/mobile/OurWorkMobile.css
+ * Author: Neha Balotia
+ * Description: This file contains all the styling part of the Contact Us Page for Mobile responsiveness.
+ * Created on: 08/11/2024
+ * Last Modified: 08/11/2024
+**/
+
+@media only screen and (max-width: 600px) {    
+
+/* Main Content */
+main {
+    /* margin-top: 100px; */
+    /* margin-left: 20px; */
+    margin-top: 5%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introTitle {
+    width: 400px;
+    text-align: center;
+}
+#introTitle h1 {
+    font-size: 50px;
+}
+.contactDiv {
+    width: 100vw;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    /* padding-left: 10%; */
+}
+
+.contactDiv p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactDiv div {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #f3f2f3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!-- 
+    File: shared/view/Navbar.html
+    Author: Yash Balotiya
+    Description: This page contains all the HTML5 code of the nav bar.
+    Created on: 28/07/2024
+    Last Modified: 23/11/2024
+-->
+
+<header>
+    <nav id="navBar" class="">
+        <div id="navBarChild1">
+            <img src="../../assets/images/Logo1.png" alt="Santani Life Care Foundation" id="navbarLogo"
+                onclick="window.location.href = '../../'">
+
+            <div id="navOptsDiv">
+                <ul>
+                    <!-- <li><a href="../../user/view/AboutUs.php" id="aboutUsLink">About Us</a></li> -->
+                    <li>
+                        <!-- Example split danger button -->
+                        <div class="btn-group">
+
+                            <!-- About Us -->
+                            <button type="button" id="aboutUsBtn" class="btn btn-danger"
+                                onclick="window.location.href = '../../user/view/AboutUs.php'">About
+                                Us</button>
+                            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./AboutUs.php" id="aboutUsLink">About Us</a>
+                                <!-- <a class="dropdown-item" href="#">Our Team Leaders</a> -->
+                                <!-- <a class="dropdown-item" href="#">Our Volunteers</a> -->
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Other Links -->
+                    <li><a href="../../user/view/OurWork.php" id="ourWorkLink">Our Work</a></li>
+                    <li><a href="../../user/view/Gallery.php" id="galleryLink">Gallery</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="../../user/view/ContactUs.php" id="contactUsLink">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- <button id="mobMenuBtn" onclick="toggleMobileMenu()"><i class="fa-solid fa-bars"></i></button> -->
+            <button id="mobMenuBtn" onclick="toggleMobileMenu()">
+                <span id="menuIcon" class="fa-solid fa-bars"></span>
+            </button>
+
+            <div id="navOptsDivMob" class="hidden">
+                <ul>
+                    <li><a href="../../user/view/AboutUs.php" id="aboutUsLinkMob">About Us</a></li>
+                    <li><a href="../../user/view/OurWork.php" id="ourWorkLinkMob">Our Work</a></li>
+                    <li><a href="../../user/view/Gallery.php" id="galleryLinkMob">Gallery</a></li>
+                    <!-- <li><a href="">Reviews</a></li> -->
+                    <li><a href="../../user/view/ContactUs.php" id="contactUsLinkMob">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('navOptsDivMob');
+        const menuIcon = document.getElementById('menuIcon');
+        const isVisible = mobileMenu.classList.contains('visible');
+
+        // Toggle visibility class
+        mobileMenu.classList.toggle('visible');
+
+        // Adjust height for animation
+        if (!isVisible) {
+            mobileMenu.style.maxHeight = `${mobileMenu.scrollHeight}px`; // Set max-height to full height
+            menuIcon.classList.remove('fa-bars');
+            menuIcon.classList.add('fa-xmark'); // Change to cross
+        } else {
+            // mobileMenu.style.maxHeight = '0'; // Collapse the menu
+            menuIcon.classList.remove('fa-xmark');
+            menuIcon.classList.add('fa-bars'); // Change back to bars
+        }
+    }
+
+</script>

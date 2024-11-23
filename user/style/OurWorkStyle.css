@@ -1,0 +1,94 @@
+/*
+ * File: user/style/OurWork.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Our Work Style.
+ * Created on: 03/08/2024
+ * Last Modified: 23/11/2024
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato";
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    /* margin-top: 85px; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+/* Sidebar */
+.sbIcons {
+    width: 26px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #3b8a69;
+}
+
+.nav-link:hover {
+    background-color: lightgray;
+}
+
+.fa-circle {
+    color: #064b69;
+}
+
+/* All Programs */
+#ourProgramsSection {
+    margin: 0;
+    align-self: center;
+}
+
+.knowMoreBtn {
+    display: none;
+}
+
+/* Health */
+.programSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px 50px 100px;
+    text-align: justify;
+}
+
+.programSection h2 {
+    margin: 20px 0;
+}
+
+.programSection b {
+    margin-top: 20px;
+}
+
+.programSection p {
+    margin: 0 0 20px 0;
+}
+
+.programSection img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Footer */
+#footerDiv {
+    margin: 0;
+}

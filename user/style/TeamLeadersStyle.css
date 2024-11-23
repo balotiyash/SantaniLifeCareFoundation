@@ -1,0 +1,86 @@
+/*
+ * File: user/style/TeamLeadersStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Team Leader Section.
+ * Created on: 07/07/2024
+ * Last Modified: 06/082024
+**/
+
+/* Team leaders */
+#teamLeadersSection {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+#teamLeadersChild1 {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* display: grid; */
+    /* grid-auto-flow: column; */
+    /* grid-auto-columns: calc((100% / 3)); */
+    /* gap: 16px; */
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+#teamLeadersChild2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+#teamLeadersChild2 img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin: 25px 0;
+}
+
+
+/* Code for Leaders Scroller */
+/* .fa-angle-left,
+.fa-angle-right {
+    height: 50px;
+    width: 50px;
+    background: #f3f2f3;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fa-angle-left:first-child {
+    left: -22px;
+}
+
+.fa-angle-right:last-child {
+    right: -22px;
+} */
+
+/* ALL Doctors Name in table format for the index page */
+#leadersTable td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 4px;
+}
+
+#leadersTable td {
+    width: 20%;
+}
+
+#leadersTable {
+    font-size: 12px;
+}

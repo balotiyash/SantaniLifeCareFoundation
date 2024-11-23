@@ -1,0 +1,32 @@
+/*
+ * File: user/style/mobile/OurWorkMobile.css
+ * Author: Neha Balotia
+ * Description: This file contains all the styling part of the About Us Page for Mobile responsiveness.
+ * Created on: 05/11/2024
+ * Last Modified: 05/11/2024
+**/
+
+@media only screen and (max-width: 600px) {    
+    main {
+        margin-top: 0;
+
+    }
+
+    #sidebarMobile {
+        display: none;
+    }
+
+    #ourProgramsSection,
+    #ourProgramsChild1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        align-items: center;
+        width: 80%;
+        padding: 0%;
+    }
+
+    #OurPrograms {
+        padding-top: 8%;
+    }
+}

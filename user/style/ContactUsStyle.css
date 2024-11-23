@@ -1,0 +1,86 @@
+/*
+ * File: user/style/ContactUsStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Contact Us Page.
+ * Created on: 31/07/2024
+ * Last Modified: 23/11/2024
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato";
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    /* margin-top: 100px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introTitle {
+    width: 1200px;
+    text-align: center;
+}
+
+#introTitle h1 {
+    font-size: 80px;
+
+    /* background: -webkit-linear-gradient(#3b8a69, #064b69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+    background: -webkit-linear-gradient(left, #3b8a69, #064b69);
+    background: -o-linear-gradient(right, #3b8a69, #064b69);
+    background: -moz-linear-gradient(right, #3b8a69, #064b69);
+    background: linear-gradient(to right, #3b8a69, #064b69);
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+.contactDiv {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contactDiv p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactDiv div {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #f3f2f3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.contactDiv div a {
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,124 @@
+/*
+ * File: user/style/GalleryStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Gallery Page.
+ * Created on: 06/08/2024
+ * Last Modified: 23/11/2024
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato";
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Full Image */
+#fullImageDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#fullImageDiv img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.fa-circle-xmark {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Main Content */
+main {
+    /* margin-top: 88px; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+/* Sidebar */
+#yearSidebar {
+    height: 100%;
+    min-height: 80vh;
+    width: 280px;
+}
+
+/* Tabs */
+#tabs {
+    width: 100%;
+    margin: 20px;
+}
+
+#imageGallery,
+#videoGallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#imageGallery h2 {
+    margin-bottom: 20px;
+}
+
+/* Images */
+#imagesDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#imagesDiv img {
+    /* width: 300px; */
+    height: 200px;
+    border-radius: 12px;
+    transition: 0.3s all ease;
+}
+
+#imagesDiv img:hover {
+    transform: scale(1.05) rotate(-1deg);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+/* Not found */
+#notFound {
+    width: 500px;
+}
+
+/* Footer */
+#footerDiv {
+    margin: 0;
+}

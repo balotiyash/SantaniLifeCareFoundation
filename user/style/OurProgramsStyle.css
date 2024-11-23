@@ -1,0 +1,104 @@
+/*
+ * File: user/style/OurProgramsStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the our program section.
+ * Created on: 28/07/2024
+ * Last Modified: 23/11/2024
+**/
+
+/* Our program */
+#ourProgramsSection {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+#ourProgramsSection h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Wellness */
+#wellnessDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#wellnessDiv img {
+    width: 75%;
+}
+
+/* Programs */
+#ourProgramsChild1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourProgramsChild2 {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.programsIcons {
+    font-size: 50px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.fa-heart-pulse, .fa-heart {
+    color: red;
+}
+
+.fa-notes-medical {
+    color: #88D66C;
+}
+
+.fa-leaf-heart {
+    color: #FFAF00;
+}
+
+.fa-person-shelter {
+    color: #FF7F3E;
+}
+
+.fa-diploma {
+    color: #AF8F6F;
+}
+
+.fa-briefcase {
+    color: #3FA2F6;
+}
+
+.fa-microchip {
+    color: #405D72;
+}
+
+.fa-hand-fist {
+    color: #7C00FE;
+}
+
+.fa-wheelchair-move {
+    color: #4A249D;
+}
+
+.fa-person-dress {
+    color: #FF0000;
+}
+
+.fa-music-magnifying-glass {
+    color: #FF4191;
+}
+
+.fa-paw-simple {
+    color: #914F1E;
+}
+
+.ourProgramsChild2:hover .programsIcons {
+    transform: scale(1.1) translateY(-4px);
+}

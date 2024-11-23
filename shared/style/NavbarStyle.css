@@ -1,0 +1,152 @@
+/* Main Navbar */
+#navBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    z-index: 5;
+}
+
+#navBarChild1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+#navbarLogo {
+    /* width: 150px; */
+    width: 250px;
+    padding: 8px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Links */
+#navOptsDiv, #navOptsDivMob {
+    width: 550px;
+}
+
+#navOptsDiv ul, #navOptsDivMob ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navOptsDiv ul li a, #navOptsDivMob ul li a {
+    color: #5a5d60;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+#navOptsDiv ul li a:hover {
+    color: green;
+}
+
+#navOptsDivMob {
+    display: none;
+}
+
+/* Mobile Menu Button */
+#mobMenuBtn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: relative; /* For positioning pseudo-elements */
+}
+
+#mobMenuBtn .fa-bars,
+#mobMenuBtn .fa-times {
+    transition: opacity 0.3s ease;
+}
+
+#mobMenuBtn .fa-times {
+    display: none; /* Hide cross initially */
+}
+
+#mobMenuBtn.open .fa-bars {
+    display: none; /* Hide bars when open */
+}
+
+#mobMenuBtn.open .fa-times {
+    display: block; /* Show cross when open */
+}
+
+/* Animation for mobile menu */
+#navOptsDivMob {
+    overflow: hidden; /* Prevents overflow during animation */
+    max-height: 0; /* Initially hidden */
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+#navOptsDivMob.visible {
+    display: flex; /* or block */
+    max-height: 500px; /* Adjust based on content height */
+    opacity: 1;
+}
+
+#navOptsDivMob ul {
+    flex-direction: column; /* Ensure items stack vertically */
+}
+
+/* Know more button */
+.knowMoreBtn {
+    background-color: #3b8a69;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 500px;
+    transition: 0.3s ease;
+}
+
+.knowMoreBtn:hover {
+    background-color: #064b69;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    #navBar {
+        position: relative;
+    }
+
+    #navBarChild1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navOptsDiv {
+        display: none;
+    }
+
+    #mobMenuBtn {
+        display: block; /* Show mobile button */
+    }
+
+    #navOptsDivMob {
+        width: 100vw;
+        height: auto;
+    }
+
+    #navOptsDivMob ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navOptsDivMob ul li {
+        color: #5a5d60;
+    }
+}

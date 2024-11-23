@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* padding: 8px; */
+        padding-top: 0;
+    }
+
+    #aboutSection,
+    #ourProgramsChild1,
+    #ourWorkDiv,
+    #ourWorkSection,
+    #ourProgramsSection,
+    #teamLeadersSection,
+    #teamLeadersChild1,
+    #certificateSection,
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        align-items: center;
+    }
+
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }   
+
+    #introSection div h1 {
+        font-size: 10vw;
+        /* padding-top: 16vw; */
+    }
+
+    #ngoImage1 {
+        width: 90vw;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    #aboutSection {
+        width: 90%;
+        align-items: center;
+        line-height: normal;
+    }
+
+    #aboutImg {
+        width: 75%;
+        margin: 0 0 20px 0;
+    }
+
+    .knowMoreBtn {
+        width: 100%;
+    }
+
+    #ourProgramsSection {
+        width: 80%;
+        /* padding: 40px; */
+    }
+
+    .ourProgramsChild1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourProgramsChild2 {
+        margin: 8px;
+    }
+
+    .ourProgramsChild2 i {
+        max-width: 40px;
+        margin-right: 40px;
+    }
+
+    .ourProgramsChild3 {
+        width: 100%;
+    }
+
+    #ourWorkSection {
+        width: 80%;
+    }
+
+    .ourWork {
+        line-height: normal;
+        margin: 8px 0;
+    }
+
+    #certificateSection img {
+        width: 90%;
+    }
+
+    #certificateSection button {
+        width: 80%;
+    }
+}
