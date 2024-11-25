@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Human Rights page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 HumanRights Program -->
         <section class="programSection">
             <h2>Human Rights</h2>
-            <img src="../../assets/images/HumanRights.jpg" alt="" >
+            <img src="../../assets/images/HumanRights.jpg" alt="Human Rights">
 
             <b>Summary</b>
             <p>Human rights are rights inherent to all human beings, regardless of race, sex, nationality, ethnicity, language, religion, or any other status. Human rights include the right to life and liberty, freedom from slavery and torture, freedom of opinion and expression, the right to work and education, and many more.</p>

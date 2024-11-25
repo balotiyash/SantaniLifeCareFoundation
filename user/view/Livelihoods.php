@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Livelihoods page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Livelihood Program -->
         <section class="programSection">
             <h2>Livelihoods</h2>
-            <img src="../../assets/images/Livelihood.jpg" alt="" >
+            <img src="../../assets/images/Livelihood.jpg" alt="Livelihood">
 
             <b>Summary</b>
             <p>A person's livelihood refers to their "means of securing the basic necessities -food, water, shelter and clothing- of life". Livelihood is defined as a set of activities, involving securing water, food, fodder, medicine, shelter, clothing and the capacity to acquire above necessities working either individually or as a group by using endowments (both human and material) for meeting the requirements of the self and his/her household on a sustainable basis with dignity.</p>

@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the About Us Page.
  * Created on: 01/08/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 **/
 
 * {
@@ -25,75 +25,46 @@ h6 {
 
 /* Main Content */
 main {
-    /* margin-top: 90px; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Baanner */
-#bannerSection {
-    overflow: hidden;
-    width: 100%;
-    height: 550px;
-    position: relative;
+/* Welcome Intro */
+#introSection {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px 0;
 }
 
-.banner-inner {
-    width: 100%;
-    height: 100%;
+#introChild1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: #fff;
-    position: relative;
-}
-
-.banner-images {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10000px;
-    height: 100%;
-    animation: scroll 60s linear infinite;
-}
-
-.banner-image {
-    width: 1000px;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-text {
-    position: relative;
-    z-index: 1;
     text-align: center;
-    padding: 40px;
-    border-radius: 20px;
 }
 
-.banner-text p {
-    margin: 0;
+#ngoImage1 {
+    width: 600px;
 }
 
-.glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+#introSection div h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #064b69;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
+#introSection div p {
+    height: 60px;
+    font-size: 22px;
+}
 
-    100% {
-        transform: translateX(-8000px);
-        /* 8500 */
-    }
+#wellnessBanner2 {
+    width: 530px;
+    height: 530px;
+    border-radius: 15px;
 }
 
 /* About Us */
@@ -132,6 +103,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
+    text-align: justify;
 }
 
 #vissionSection div {
@@ -146,7 +118,6 @@ main {
 #docsSection iframe {
     width: 100%;
     height: 500px;
-    /* pointer-events: none; */
 }
 
 .card-header {

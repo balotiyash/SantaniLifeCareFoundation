@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Employment page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../style/OurProgramsStyle.css">
     <link rel="stylesheet" href="../style/OurWorkStyle.css">
     <link rel="stylesheet" href="../style/mobile/OurWorkMobile.css">
-    <link rel="stylesheet" href="../style/mobile/OurWorkMobileMain.css">    
+    <link rel="stylesheet" href="../style/mobile/OurWorkMobileMain.css">
 </head>
 
 <body>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Employment Program -->
         <section class="programSection">
             <h2>Employment</h2>
-            <img src="../../assets/images/Employment.png" alt="" >
+            <img src="../../assets/images/Employment.png" alt="Employment">
 
             <b>Summary</b>
             <p>To generate Employment by the new ideas and projects related to latest Technology.</p>

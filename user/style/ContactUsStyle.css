@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the Contact Us Page.
  * Created on: 31/07/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 **/
 
 * {
@@ -25,34 +25,52 @@ h6 {
 
 /* Main Content */
 main {
-    /* margin-top: 100px; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Intro */
 #introTitle {
     width: 1200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #introTitle h1 {
     font-size: 80px;
-
-    /* background: -webkit-linear-gradient(#3b8a69, #064b69);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-
     background: -webkit-linear-gradient(left, #3b8a69, #064b69);
     background: -o-linear-gradient(right, #3b8a69, #064b69);
     background: -moz-linear-gradient(right, #3b8a69, #064b69);
     background: linear-gradient(to right, #3b8a69, #064b69);
     background-clip: text;
-    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
+#sloganTxt {
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+
+#memoryTxt {
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: yellow;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+
+/* Contact Divs */
 .contactDiv {
     width: 1200px;
     display: flex;
@@ -77,6 +95,11 @@ main {
 
 .contactDiv div a {
     text-decoration: none;
+}
+
+/* Maps section */
+.map span {
+    width: 90%;
 }
 
 iframe {

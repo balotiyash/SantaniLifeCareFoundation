@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Specially Abled page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 SpeciallyAbled Program -->
         <section class="programSection">
             <h2>Specially Abled</h2>
-            <img src="../../assets/images/SpeciallyAbled.jpg" alt="" >
+            <img src="../../assets/images/SpeciallyAbled.jpg" alt="Specially Abled Boy">
 
             <b>Summary</b>
             <p>The term "special abled" is used as a substitute for physically disabled or handicapped people. We work towards removing the barriers that limit people with disabilities from participating in livelihood activities. Our Aim in bringing together persons with and without disabilities working as one inclusive team.</p>
@@ -50,7 +50,7 @@
                 </li>
                 <li>
                     <b>Promoting Inclusivity:</b>
-                    <p>By fostering an environment where people of all abilities can collaborate, we aim to create a workplace and community where diversity is celebrated and everyone’s contributions are valued.</p>
+                    <p>By fostering an environment where people of all abilities can collaborate, we aim to create a workplace and community where diversity is celebrated and everyone's contributions are valued.</p>
                 </li>
                 <li>
                     <b>Empowering Individuals:</b>
@@ -62,7 +62,7 @@
                 </li>
             </ul>
 
-            <b><i><u>Through our efforts, we strive to create a world where all individuals, regardless of their abilities, can participate fully and equally in every aspect of life. Together, we can build a more inclusive society where everyone’s potential is recognized and harnessed.</u></i></b>
+            <b><i><u>Through our efforts, we strive to create a world where all individuals, regardless of their abilities, can participate fully and equally in every aspect of life. Together, we can build a more inclusive society where everyone's potential is recognized and harnessed.</u></i></b>
         </section>
     </main>
 

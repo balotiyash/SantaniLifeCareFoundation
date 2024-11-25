@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Animal Protection page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Animal Safety Programs -->
         <section class="programSection">
             <h2>Animal Protection</h2>
-            <img src="../../assets/images/StreetAnimal.png" alt="">
+            <img src="../../assets/images/StreetAnimal.png" alt="Street Dog">
 
             <b>Summary</b>
             <p>To Protect, preserve arrange collaborate and open centers for the work and welfare related to stray animals and Pets.</p>

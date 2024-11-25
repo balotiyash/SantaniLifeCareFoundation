@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the our program section.
  * Created on: 28/07/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 **/
 
 /* Our program */
@@ -27,8 +27,9 @@
     justify-content: center;
 }
 
-#wellnessDiv img {
+#wellnessImg1 {
     width: 75%;
+    max-width: 90vw;
 }
 
 /* Programs */
@@ -45,13 +46,15 @@
     cursor: pointer;
 }
 
+/* Program Icons */
 .programsIcons {
     font-size: 50px;
     margin-right: 20px;
     transition: transform 0.3s ease;
 }
 
-.fa-heart-pulse, .fa-heart {
+.fa-heart-pulse,
+.fa-heart {
     color: red;
 }
 
@@ -101,4 +104,35 @@
 
 .ourProgramsChild2:hover .programsIcons {
     transform: scale(1.1) translateY(-4px);
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+    #ourProgramsSection {
+        width: 80%;
+    }
+
+    .ourProgramsChild1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourProgramsChild2 {
+        margin: 8px;
+    }
+
+    .ourProgramsChild2 i {
+        width: 30px;
+        margin-right: 10vw;
+        font-size: 10vw;
+    }
+
+    .ourProgramsChild2 h5 {
+        font-size: 5vw;
+    }
+
+    .ourProgramsChild3 {
+        width: 100%;
+    }
 }

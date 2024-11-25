@@ -1,9 +1,9 @@
 /** 
  * File: main.js
  * Author: Yash Balotiya
- * Description: // TODO
+ * Description: This file contains the main JavaScript code for the website. It contains the necessary changes to be made on load. Specifically, working for index.php
  * Created on: 01/08/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 */
 
 // Window on ready
@@ -30,13 +30,14 @@ $(document).ready(() => {
     $("#ourWorkLink").attr("href", "user/view/OurWork.php");
     $("#galleryLink").attr("href", "user/view/Gallery.php");
     $("#contactUsLink").attr("href", "user/view/ContactUs.php");
+    $("#donateBtn").on("click", () => window.location.href = "user/view/Donate.php");
 
     // Navbar Links for Mobile
     $("#aboutUsLinkMob").attr("href", "user/view/AboutUs.php");
-    // $("#aboutUsBtn").on("click", () => window.location.href = "user/view/AboutUs.php");
     $("#ourWorkLinkMob").attr("href", "user/view/OurWork.php");
     $("#galleryLinkMob").attr("href", "user/view/Gallery.php");
     $("#contactUsLinkMob").attr("href", "user/view/ContactUs.php");
+    $("#donateLinkMob").attr("href", "user/view/Donate.php");
 
     // Our Programs
     $('#wellnessImg1').attr("src", "assets/images/Wellness Banner1.jpg");
@@ -75,12 +76,4 @@ $(document).ready(() => {
     $("#footerLogo").attr("src", "assets/images/Logo3.png");
     $("#algoDevsImg").attr("src", "assets/images/AlgoDevs.png");
     $("#newImage").attr("src", "assets/images/New.png");
-
-    // Typing Effect
-    const typed = new Typed(".auto-type", {
-        strings: ["Alone we can do so little,<br>Together we can do so much."],
-        typeSpeed: 50,
-        backSpeed: 100,
-        loop: false
-    });
 });

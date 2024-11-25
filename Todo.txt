@@ -1,1 +1,0 @@
-1. index page navbar loading issue because of shared meta tags and js

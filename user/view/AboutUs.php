@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the About Us page.
     Created on: 01/08/2024
-    Last Modified: 23/11/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
 
     <!-- Main Styles -->
     <link rel="stylesheet" href="../style/AboutUsStyle.css">
-    <link rel="stylesheet" href="../style/mobile/AboutUsMx  obile.css">
+    <link rel="stylesheet" href="../style/mobile/AboutUsMobile.css">
 </head>
 
 <body>
@@ -23,44 +23,22 @@
     <?php include_once "../../shared/view/Navbar.html" ?>
 
     <main>
-        <!-- Section 1 Banner -->
-        <section id="bannerSection">
-            <div class="banner-inner">
-                <div class="banner-images">
-                    <div class="banner-image" style="background-image: url('../../assets/images/BannerImage4.jpeg');"></div>
-
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF02.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF01.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF04.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF03.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF05.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF07.jpg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF08.jpeg');"></div>
-                    <div class="banner-image" style="background-image: url('../../assets/images/SLCF09.jpg');"></div>
-
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/Banner7.png');"></div> -->
-                    <div class="banner-image" style="background-image: url('../../assets/images/Banner5.jpg');"></div>
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/Banner1.jpg');"></div> -->
-                    <div class="banner-image" style="background-image: url('../../assets/images/Banner2.jpg');"></div>
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/BannerImage5.jpeg');"></div> -->
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/Banner4.png');"></div> -->
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/Banner3.jpg');"></div> -->
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/BannerImage3.jpeg');"></div> -->
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/Banner6.jpg');"></div> -->
-                    <!-- <div class="banner-image" style="background-image: url('../../assets/images/BannerImage4.jpeg');"></div> -->
-                </div>
-                <div class="banner-text glass">
-                    <h1>Santani Life Care Foundation</h1>
-                    <p>Alone we can do so little, Together we can do so much.</p>
-                </div>
+        <!-- Section 1 Intro -->
+        <section id="introSection">
+            <div id="introChild1">
+                <h1>Santani Life Care Foundation</h1>
+                <p><b><span class="auto-type"></span></b></p>
+                <img src="../../assets/images/NGOImage1.jpg" alt="NGO Text Image" id="ngoImage1">
             </div>
+
+            <img src="../../assets/images/Wellness Banner2.jpg" alt="Wellness Banner" id="wellnessBanner2">
         </section>
 
         <!-- Section 2 About -->
         <section id="aboutUsSection" class="infoDiv">
             <h3 class="headingText">About Us</h3>
 
-            <p><big><b>Santani Life Care Foundation</b></big> is a non-profit organization founded in 2023 and based in Mumbai Central, Mumbai. Our mission is to enhance the quality of life by addressing key areas crucial for individual and societal well-being. We operate across a diverse range of sectors, including <i>health, traditional AYUSH medicine, job-oriented education, employment, technology, human rights, women's empowerment, art & culture, and animal protection.</i></p>
+            <p><big><b>Santani Life Care Foundation</b></big> is a non-profit organization founded in 2024 and based in Mumbai Central, Mumbai. Our mission is to enhance the quality of life by addressing key areas crucial for individual and societal well-being. We operate across a diverse range of sectors, including <i>health, traditional AYUSH medicine, job-oriented education, employment, technology, human rights, women's empowerment, art & culture, and animal protection.</i></p>
 
             <p>Our <big>health</big> initiatives focus on establishing <i>affordable yoga, meditation, and fitness centers</i>, promoting holistic health by integrating physical and mental wellness practices. We also provide accessible healthcare services through small clinics staffed with qualified professionals, ensuring that quality medical care is available to everyone. In promoting traditional <big>AYUSH</big> medicine, we work to raise global awareness and credibility by hosting international conferences and creating information hubs abroad.</p>
 
@@ -90,13 +68,17 @@
             <!-- Vision -->
             <div>
                 <h3 class="headingText">Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit facere numquam ad eum aperiam debitis, eos nemo et ratione odit necessitatibus fugiat maxime cum minima eius voluptatem consequuntur voluptates!</p>
+                <p>To promote excellence in field of Health Care, Education and Livelihood to meet the fast growing challenges of the competitive world.</p>
             </div>
 
             <!-- Mission -->
             <div>
                 <h3 class="headingText">Our Mission</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit facere numquam ad eum aperiam debitis, eos nemo et ratione odit necessitatibus fugiat maxime cum minima eius voluptatem consequuntur voluptates!</p>
+                <ol>
+                    <li>To Provide Accurate Diagnosis and Hygienic Health care treatment by professional Doctors at affordable price.</li>
+                    <li>To Provide Job Oriented Education to meet the challenges of the competitive world.</li>
+                    <li>To Provide Livelihood to all to meet the basic necessities of life.</li>
+                </ol>
             </div>
         </section>
 
@@ -106,6 +88,18 @@
 
     <!-- Footer -->
     <?php include_once "../../shared/view/Footer.html" ?>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        // Typing Effect
+        const typed = new Typed(".auto-type", {
+            strings: ["Alone we can do so little,<br>Together we can do so much."],
+            typeSpeed: 50,
+            backSpeed: 100,
+            loop: false
+        });
+    </script>
 </body>
 
 </html>

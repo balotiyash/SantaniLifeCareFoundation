@@ -1,59 +1,88 @@
 /*
- * File: user/style/mobile/OurWorkMobile.css
+ * File: user/style/mobile/ContactUsMobile.css
  * Author: Neha Balotia
  * Description: This file contains all the styling part of the Contact Us Page for Mobile responsiveness.
  * Created on: 08/11/2024
- * Last Modified: 08/11/2024
+ * Last Modified: 25/11/2024
 **/
 
-@media only screen and (max-width: 600px) {    
+@media only screen and (max-width: 768px) {
 
-/* Main Content */
-main {
-    /* margin-top: 100px; */
-    /* margin-left: 20px; */
-    margin-top: 5%;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* Main Content */
+    body,
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    /* Intro */
+    #introTitle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #introTitle h1 {
+        font-size: 40px;
+    }
+
+    #sloganTxt {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    #memoryTxt {
+        width: 100%;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    /* Contact Divs */
+    .contactDiv {
+        width: 100vw;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        /* padding-left: 10%; */
+    }
+
+    .contactDiv p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .contactDiv div {
+        width: 90%;
+        border-radius: 40px;
+        background-color: #f3f2f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .contactDiv div span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* Maps section */
+    .map span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
-#introTitle {
-    width: 400px;
-    text-align: center;
-}
-#introTitle h1 {
-    font-size: 50px;
-}
-.contactDiv {
-    width: 100vw;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-    /* padding-left: 10%; */
-}
-
-.contactDiv p {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.contactDiv div {
-    width: 100%;
-    border-radius: 40px;
-    background-color: #f3f2f3;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-
-
-}
-
-
-
-
-

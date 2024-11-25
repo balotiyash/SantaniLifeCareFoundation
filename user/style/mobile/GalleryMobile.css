@@ -1,37 +1,34 @@
 /*
- * File: user/style/mobile/OurWorkMobile.css
+ * File: user/style/mobile/GalleryMobile.css
  * Author: Neha Balotia
  * Description: This file contains all the styling part of the Gallery Page for Mobile responsiveness.
  * Created on: 08/11/2024
- * Last Modified: 08/11/2024
+ * Last Modified: 25/11/2024
 **/
 
-@media only screen and (max-width: 600px) {    
-    
-    /* Main Content */
+@media only screen and (max-width: 768px) {
+
+    /* Main */
+    body {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main Section */
     main {
-        margin-top: 0%;
         width: 100%;
         display: flex;
-        flex-direction: row;
-        /* align-items: center; */
+        justify-content: center;
     }
 
     /* Sidebar */
-    #yearSidebar {
-        width: 100px;
-        height: 100%;
-        min-height: 30vh;
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
+    #sidebar {
+        display: none;
     }
 
-    #tabs {
-        width: 80%;
-        margin: 0%;
-    }
-
+    /* Images Section */
     #imagesDiv img {
         height: 140px;
     }
@@ -40,8 +37,3 @@
         width: 280px;
     }
 }
-
-
-
-
-

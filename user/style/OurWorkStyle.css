@@ -1,9 +1,9 @@
 /*
- * File: user/style/OurWork.css
+ * File: user/style/OurWorkStyle.css
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the Our Work Style.
  * Created on: 03/08/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 **/
 
 * {
@@ -25,11 +25,8 @@ h6 {
 
 /* Main Content */
 main {
-    /* margin-top: 85px; */
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 
 /* Sidebar */

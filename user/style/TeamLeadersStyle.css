@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the Team Leader Section.
  * Created on: 07/07/2024
- * Last Modified: 06/082024
+ * Last Modified: 25/11/2024
 **/
 
 /* Team leaders */
@@ -20,13 +20,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-    /* display: grid; */
-    /* grid-auto-flow: column; */
-    /* grid-auto-columns: calc((100% / 3)); */
-    /* gap: 16px; */
-    /* overflow: hidden; */
-    /* position: relative; */
 }
 
 #teamLeadersChild2 {
@@ -44,7 +37,6 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     margin: 25px 0;
 }
-
 
 /* Code for Leaders Scroller */
 /* .fa-angle-left,
@@ -71,16 +63,48 @@
 } */
 
 /* ALL Doctors Name in table format for the index page */
+.table-responsive {
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    width: 100%;
+    /* Full width of the container */
+}
+
+#leadersTable {
+    width: 100%;
+    /* Ensure the table takes full width */
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
 #leadersTable td {
     border: 1px solid black;
     text-align: center;
     padding: 4px;
-}
-
-#leadersTable td {
     width: 20%;
+    /* Default width for desktop */
 }
 
-#leadersTable {
-    font-size: 12px;
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .table-responsive {
+        width: 90vw;
+    }
+
+    #leadersTable {
+        width: 900px;
+        /* Set a fixed width for mobile to allow 5 entries */
+    }
+
+    #leadersTable td {
+        width: 20%;
+        /* Each entry will take 20% width, allowing 5 entries */
+    }
+
+    h2 {
+        font-size: 18px;
+        /* Adjust heading size for mobile */
+        text-align: center;
+        /* Center the heading */
+    }
 }

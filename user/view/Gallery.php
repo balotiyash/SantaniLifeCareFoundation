@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Gallery page.
     Created on: 06/08/2024
-    Last Modified: 23/11/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -42,19 +42,16 @@
             <div class="tab-content" id="nav-tabContent">
                 <!-- Images -->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <!-- Ayush PolyClinic -->
                     <div id="imageGallery">
-                        <!-- <h2>Ayush Polyclinic</h2> -->
-                        <div id="imagesDiv">
-
-                        </div>
+                        <!-- Dynamic Data Here -->
+                        <div id="imagesDiv"></div>
                     </div>
                 </div>
 
                 <!-- Videos -->
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div id="videoGallery">
-                        <img src="../../assets/vectors/Not Found.svg" alt="" id="notFound">
+                        <img src="../../assets/vectors/Not Found.svg" alt="Data Not Found" id="notFound">
                     </div>
                 </div>
             </div>
@@ -66,8 +63,6 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-    <!-- <script src="../controller/GalleryScript.js"></script> -->
     <script>
         let arr = [
             "SLCF01.jpeg", "SLCF02.jpeg", "SLCF03.jpeg", "SLCF04.jpeg", "SLCF05.jpeg", "SLCF06.jpeg", "SLCF07.jpeg", "SLCF08.jpeg", "SLCF09.jpeg", "SLCF10.jpeg", "SLCF11.jpeg", "SLCF12.jpeg", "SLCF13.jpeg", "SLCF14.jpeg"

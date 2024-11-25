@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Technology page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Technology Program -->
         <section class="programSection">
             <h2>Technology</h2>
-            <img src="../../assets/images/Technology.jpg" alt="">
+            <img src="../../assets/images/Technology.jpg" alt="Technology">
 
             <b>Summary</b>
             <p>Technology, the application of scientific knowledge for practical purposes and problem-solving, holds immense potential for driving progress and innovation. Our focus is on leveraging technology to enhance the lives of traditional practitioners, landless laborers, and marginalized communities through research, development, and adoption of E-science.</p>

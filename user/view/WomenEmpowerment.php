@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Women Empowerment page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,16 +29,16 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Women Program -->
         <section class="programSection">
             <h2>Women's Empowerment</h2>
-            <img src="../../assets/images/Women.jpg" alt="" >
+            <img src="../../assets/images/Women.jpg" alt="Women">
 
             <b>Summary</b>
             <p>Empowerment means to have agency over one's life and equal opportunity to participate in society. Women's empowerment, or female empowerment, is the process by which women gain influence and equal opportunity to pursue personal, social and economic endeavors, engaging in all parts of society on the same basis as men.</p>
 
             <b>Celebrate Empowerment: Fostering Equality and Opportunity</b>
-            <p>Empowerment is the essence of having control over one’s own life and the equal opportunity to engage fully in society. It embodies the ability to make choices, pursue goals, and participate in various aspects of life with autonomy and fairness.</p>
+            <p>Empowerment is the essence of having control over one's own life and the equal opportunity to engage fully in society. It embodies the ability to make choices, pursue goals, and participate in various aspects of life with autonomy and fairness.</p>
 
             <p>Women's empowerment, or female empowerment, is a crucial aspect of this broader concept. It involves the process by which women gain the influence and opportunities necessary to pursue their personal, social, and economic aspirations. This process ensures that women can engage in all facets of society on equal terms with men, without discrimination or disadvantage.</p>
 

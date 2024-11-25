@@ -1,3 +1,11 @@
+/*
+ * File: shared/style/NavbarStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Navbar.
+ * Created on: 25/11/2024
+ * Last Modified: 25/11/2024
+**/
+
 /* Main Navbar */
 #navBar {
     width: 100%;
@@ -20,19 +28,19 @@
 }
 
 #navbarLogo {
-    /* width: 150px; */
-    width: 250px;
+    width: 200px;
     padding: 8px 0;
-    margin-top: 20px;
     cursor: pointer;
 }
 
 /* Links */
-#navOptsDiv, #navOptsDivMob {
+#navOptsDiv,
+#navOptsDivMob {
     width: 550px;
 }
 
-#navOptsDiv ul, #navOptsDivMob ul {
+#navOptsDiv ul,
+#navOptsDivMob ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -41,7 +49,8 @@
     padding: 0;
 }
 
-#navOptsDiv ul li a, #navOptsDivMob ul li a {
+#navOptsDiv ul li a,
+#navOptsDivMob ul li a {
     color: #5a5d60;
     cursor: pointer;
     font-weight: 500;
@@ -63,7 +72,8 @@
     background-color: transparent;
     border: none;
     font-size: 20px;
-    position: relative; /* For positioning pseudo-elements */
+    position: relative;
+    /* For positioning pseudo-elements */
 }
 
 #mobMenuBtn .fa-bars,
@@ -72,33 +82,41 @@
 }
 
 #mobMenuBtn .fa-times {
-    display: none; /* Hide cross initially */
+    display: none;
+    /* Hide cross initially */
 }
 
 #mobMenuBtn.open .fa-bars {
-    display: none; /* Hide bars when open */
+    display: none;
+    /* Hide bars when open */
 }
 
 #mobMenuBtn.open .fa-times {
-    display: block; /* Show cross when open */
+    display: block;
+    /* Show cross when open */
 }
 
 /* Animation for mobile menu */
 #navOptsDivMob {
-    overflow: hidden; /* Prevents overflow during animation */
-    max-height: 0; /* Initially hidden */
+    overflow: hidden;
+    /* Prevents overflow during animation */
+    max-height: 0;
+    /* Initially hidden */
     opacity: 0;
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 #navOptsDivMob.visible {
-    display: flex; /* or block */
-    max-height: 500px; /* Adjust based on content height */
+    display: flex;
+    /* or block */
+    max-height: 500px;
+    /* Adjust based on content height */
     opacity: 1;
 }
 
 #navOptsDivMob ul {
-    flex-direction: column; /* Ensure items stack vertically */
+    flex-direction: column;
+    /* Ensure items stack vertically */
 }
 
 /* Know more button */
@@ -116,12 +134,14 @@
 }
 
 /* Media queries */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     #navBar {
         position: relative;
+        width: 100vw;
     }
 
     #navBarChild1 {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -131,7 +151,8 @@
     }
 
     #mobMenuBtn {
-        display: block; /* Show mobile button */
+        display: block;
+        /* Show mobile button */
     }
 
     #navOptsDivMob {

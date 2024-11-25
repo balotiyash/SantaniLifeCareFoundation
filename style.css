@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the index page
  * Created on: 07/07/2024
- * Last Modified: 23/11/2024
+ * Last Modified: 25/11/2024
 **/
 
 * {
@@ -29,44 +29,53 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 100px; */
 }
 
-/* Welcome Intro */
-#introSection {
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    width: 1200px;
-    margin: 50px 0;
+/* Banner */
+#bannerSection {
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+    position: relative;
 }
 
-#introChild1 {
+.banner-inner {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.banner-images {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10000px;
+    height: 100%;
+    animation: scroll 60s linear infinite;
+}
+
+.banner-image {
+    width: 1000px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    position: relative;
+    z-index: 1;
     text-align: center;
+    padding: 40px;
+    border-radius: 20px;
 }
 
-#ngoImage1 {
-    width: 600px;
-}
-
-#introSection div h1 {
-    font-size: 50px;
-    font-weight: 600;
-    color: #064b69;
-}
-
-#introSection div p {
-    height: 60px;
-    font-size: 22px;
-}
-
-#wellnessBanner2 {
-    width: 530px;
-    height: 530px;
-    border-radius: 15px;
+.banner-text p {
+    margin: 0;
 }
 
 /* Glass Effect */
@@ -74,6 +83,17 @@ main {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-8000px);
+        /* 8500 */
+    }
 }
 
 /* About Santani */
@@ -86,6 +106,7 @@ main {
     padding: 40px;
     border-radius: 40px;
     text-align: justify;
+    margin-top: 100px;
 }
 
 #aboutImg {
@@ -138,6 +159,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
+    text-align: center;
 }
 
 .countTxt {
@@ -145,7 +168,6 @@ main {
     font-weight: bold;
     color: #3b8a69;
 }
-
 
 /* Certificate */
 #certificateSection {

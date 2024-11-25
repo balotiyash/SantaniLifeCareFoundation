@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Health Care page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 HealthCare Program -->
         <section class="programSection">
             <h2>Health Care</h2>
-            <img src="../../assets/images/HealthCare.jpg" alt="" >
+            <img src="../../assets/images/HealthCare.jpg" alt="Health Care">
 
             <b>Summary</b>
             <p>Health care is the improvement of health, by the prevention, diagnosis, treatment, amelioration or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Generating small centers for diagnosis and treatment through a Qualified and Professional team of Doctors at an Affordable price.</p>

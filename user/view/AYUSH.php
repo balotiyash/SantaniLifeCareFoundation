@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Traditional Treatement of AYUSH page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
-            <section class="programSection">
-                <h2 id="Ayush">Traditional Treatment of AYUSH</h2>
-            <img src="../../assets/images/Ayush.png" alt="" >
+        <!-- Section 2 AYUSH Program -->
+        <section class="programSection">
+            <h2 id="Ayush">Traditional Treatment of AYUSH</h2>
+            <img src="../../assets/images/Ayush.png" alt="AYUSH">
 
             <b>Summary</b>
             <p>AYUSH is an acronym for Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy and are the six Indian systems of medicine prevalent and practiced in India and some of the neighboring Asian countries with very few exceptions in some of the developed countries. To generate awareness about AYUSH in international market by providing authentic information about the Indian traditional medicine by conducting international conferences on AYUSH Medicine, selecting the system experts of different countries, and also establishing AYUSH information cells in different countries.</p>

@@ -3,35 +3,57 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the About Us Page for Mobile responsiveness.
  * Created on: 05/11/2024
- * Last Modified: 05/11/2024
+ * Last Modified: 25/11/2024
 **/
 
-@media only screen and (max-width: 600px) {
-    main {
-        margin-top: 0;
+@media only screen and (max-width: 768px) {
 
-    }
-
+    /* All sections */
     #aboutUsSection,
     #vissionSection,
     #docsSection,
-    #accordion,
-    .card {
-        width: 100vw;
+    #accordion {
+        width: 90vw;
         padding: 0 12px;
     }
 
-    #headingOne,
-    #headingTwo,
-    #headingThree,
-    #headingFour,
-    #headingFive,
-    #headingSix,
-    #headingSeven {
+    /* Intro */
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
         max-width: 100vw;
     }
 
-    #docsSection div {
-        max-width: 100vw;
+    #introSection div h1 {
+        font-size: 10vw;
+    }
+
+    /* Images */
+    #ngoImage1 {
+        width: 90vw;
+    }
+
+    #wellnessBanner2 {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    /* Vission Mission */
+    #vissionSection {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #vissionSection div {
+        width: 100%;
+    }
+
+    /* Docs Section */
+    .docsDiv {
+        width: 100%;
     }
 }

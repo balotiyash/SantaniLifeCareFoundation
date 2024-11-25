@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Health page.
     Created on: 03/08/2024
-    Last Modified: 05/08/2024
+    Last Modified: 25/11/2024
 -->
 
 <!DOCTYPE html>
@@ -29,10 +29,10 @@
         <!-- Section 1 Side bar -->
         <?php include_once "OurWorkSidebar.html" ?>
 
-        <!-- Section 2 All Programs -->
+        <!-- Section 2 Yoga Program -->
         <section class="programSection">
             <h2>Health</h2>
-            <img src="../../assets/images/Yoga.jpeg" alt="" >
+            <img src="../../assets/images/Yoga.jpeg" alt="Yoga">
 
             <b>Summary</b>
             <p>Health is a state of complete physical, mental, and social well-being. Generating small centers of Yoga, meditation and Fitness center at affordable price. Yoga practice can help to decrease physiological stress and arousal in the body. Meditation combined with a regular yoga practice can lower blood pressure and heart rate, reduce inflammation in the body and aid in reducing chronic pain issues. Regular exercise can reduce the risk of chronic diseases and promote overall health. Secondly, it helps to improve mental health by reducing stress and anxiety levels. Thirdly, it can help you to build a healthier mind and healthier community.</p>

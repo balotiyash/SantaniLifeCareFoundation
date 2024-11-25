@@ -1,0 +1,61 @@
+/*
+ * File: user/style/mobile/DonateMobile.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the Donate Page for responsiveness.
+ * Created on: 25/11/2024
+ * Last Modified: 25/11/2024
+**/
+
+@media only screen and (max-width: 768px) {
+
+    /* Main content */
+    body,
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 90vw;
+    }
+
+    /* Intro */
+    #introTitle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #introTitle h1 {
+        font-size: 40px;
+    }
+
+    #sloganTxt {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    #memoryTxt {
+        width: 100%;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    /* Accounts section */
+    #accountDetails {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #accountDetails div {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #child1 {
+        border-radius: 20px 20px 0 0;
+    }
+}
