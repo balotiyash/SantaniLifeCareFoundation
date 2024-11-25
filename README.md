@@ -126,10 +126,6 @@ For more information, visit our website: [santanilifecare.in](http://santanilife
 
 ---
 
-Sure! Here’s a section about the developer that you can add to the README:
-
----
-
 ## Developer Information
 
 **Company**: AlgoDevs  
