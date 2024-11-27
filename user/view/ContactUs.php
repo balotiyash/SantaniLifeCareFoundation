@@ -35,11 +35,11 @@
         <section class="contactDiv">
             <p class>Contact Us On</p>
             <div>
-                <span>
+                <!-- <span>
                     <i class="fa-duotone fa-solid fa-phone-volume"></i>
                     &nbsp;
                     <a href="tel:9004752929">+91 90047 52929</a>
-                </span>
+                </span> -->
 
                 <span>
                     <i class="fa-duotone fa-solid fa-phone-volume"></i>

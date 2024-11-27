@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the Footer
  * Created on: 31/07/2024
- * Last Modified: 25/11/2024
+ * Last Modified: 27/11/2024
 **/
 
 /* Main Footer */
@@ -102,6 +102,10 @@
     cursor: pointer;
 }
 
+#aboutDevHeader {
+    text-align: center;
+}
+
 /* Copywrite */
 #copyFooter {
     width: 100%;
@@ -178,5 +182,9 @@
         margin: 8px 0;
         height: 1px;
         background-color: lightgray;
+    }
+
+    #aboutDevHeader {
+        font-size: 20px;
     }
 }
