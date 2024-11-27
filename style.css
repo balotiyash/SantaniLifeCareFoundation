@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains all the styling part of the index page
  * Created on: 07/07/2024
- * Last Modified: 25/11/2024
+ * Last Modified: 27/11/2024
 **/
 
 * {
@@ -44,9 +44,11 @@ main {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    align-items: end;
     color: #fff;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .banner-images {

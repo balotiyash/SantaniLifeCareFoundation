@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the main JavaScript code for the website. It contains the necessary changes to be made on load. Specifically, working for index.php
  * Created on: 01/08/2024
- * Last Modified: 25/11/2024
+ * Last Modified: 27/11/2024
 */
 
 // Window on ready
@@ -71,6 +71,8 @@ $(document).ready(() => {
             $(".links").eq(i).attr("href", `user/view/${USEFUL_LINKS[i]}.php`);
         }
     }
+
+    $("#freeCamp").attr("href", "assets/images/Free Camp.jpg");
 
     // Dev Footer
     $("#footerLogo").attr("src", "assets/images/Logo3.png");

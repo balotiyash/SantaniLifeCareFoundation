@@ -1,0 +1,157 @@
+/*
+ * File: tempStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains temporary style which will be removed or changed in the future. currently it has style for onload popup image ad
+ * Created on: 27/11/2024
+ * Last Modified: 27/11/2024
+**/
+
+/* Free Camp Section */
+#freeCampSection {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 50;
+}
+
+#freeCampSection img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#freeCampSection i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #freeCampSection img {
+        min-width: 80vh;
+        transform: rotate(270deg);
+    }
+
+    #freeCampSection {
+        padding: 10px;
+    }
+    
+    #freeCampSection i {
+        font-size: 25px;
+    }
+}
+
+#freeCampSection2 {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#freeCampSection2 div ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /* Removes the default list bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+#freeCampSection2 li {
+    margin: 0 15px; /* Adds spacing between the list items */
+}
+
+#freeCampSection2 a {
+    color: #0d6efd;
+    /* text-decoration: none; */
+     /* Removes the underline from links */
+}
+
+#freeCampSection2 img {
+    max-width: 90%;
+    cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+    margin-top: 20px; /* Adds space between the image and other content */
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    #freeCampSection2 {
+        width: 100%; /* Full width for mobile */
+        padding: 10px; /* Add padding to prevent content from touching the edges */
+    }
+
+    #freeCampSection2 div ul {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+         /* Stack the list items vertically */
+        justify-content: center;
+         /* Center the list items */
+    }
+
+    #freeCampSection2 li, h3 {
+        margin-bottom: 10px; /* Adds space between stacked list items */
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+
+    #freeCampSection2 img {
+        max-width: 100%; /* Ensure the image is responsive and fits smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 15px; /* Keep margin above image */
+    }
+
+    #freeCampSection2 a {
+        font-size: 16px; /* Adjust the link font size for mobile */
+    }
+}
+
+#freeCampSection2 h1 {
+    /* width: 100%; */
+    font-size: 36px; /* Increase font size for better visibility */
+    font-weight: bold; /* Make the text bold */
+    color: #ff6347; /* Use a vibrant color for the heading */
+    text-align: center; /* Center-align the heading */
+    letter-spacing: 2px; /* Add some spacing between letters */
+    text-transform: uppercase; /* Make the text uppercase for emphasis */
+    background: linear-gradient(45deg, #ff6347, #ffd700); /* Gradient background for the text */
+    -webkit-background-clip: text; /* Clip the background gradient to the text */
+    color: transparent; /* Make the text itself transparent to show the gradient */
+    padding: 20px 0; /* Add padding around the text for breathing space */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* Add subtle shadow for depth */
+    animation: bounce 1s infinite; /* Add a bounce animation for a lively effect */
+}
+
+/* Animation for the heading */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Move up slightly */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Media Query for smaller devices */
+@media (max-width: 768px) {
+    #freeCampSection2 h1 {
+        font-size: 28px; /* Adjust font size on smaller screens */
+        padding: 15px 0; /* Adjust padding on mobile */
+    }
+}

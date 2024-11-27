@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Donate Payment Description page.
     Created on: 25/11/2024
-    Last Modified: 25/11/2024
+    Last Modified: 27/11/2024
 -->
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@
         <section id="introTitle">
             <h1>Santani Life Care Foundation</h1>
             <p id="sloganTxt">Alone we can do so little, Together we can do so much!!</p>
-            <p id="memoryTxt">In Loving Memory of My Mother, Late Mrs. Vimal Suryawanshi</p>
+            <!-- <p id="memoryTxt">In Loving Memory of My Mother, Late Mrs. Vimal Suryawanshi</p> -->
         </section>
 
         <!-- Section 2 Info -->
