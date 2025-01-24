@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the index page.
     Created on: 28/07/2024
-    Last Modified: 27/11/2024
+    Last Modified: 24/01/2024
 -->
 
 <!DOCTYPE html>
@@ -32,7 +32,8 @@
     <main>
         <!-- Section 0 -->
         <section id="freeCampSection">
-            <img src="assets/images/Free Camp Compressed.jpg" alt="Free Medical Camp on 1st December 2024" onclick="window.location.href = 'assets/images/Free Camp.jpg'">
+            <!-- <img src="assets/images/Free Camp Compressed.jpg" alt="Free Medical Camp on 1st December 2024" onclick="window.location.href = 'assets/images/Free Camp.jpg'"> -->
+            <img src="assets/images/SLCF Health Camp 2.jpg" alt="Free Medical Camp on 26th January 2025" onclick="window.location.href = 'assets/images/SLCF Health Camp 2.jpg'">
             <i class="fa-solid fa-circle-xmark" onclick="document.getElementById('freeCampSection').style.display = 'none';"></i>
         </section>
 
@@ -79,9 +80,12 @@
 
         <!-- Section 0 -->
         <section id="freeCampSection2">
-            <h1>Free Mega Medical Camp Organised on <br>1st December 2024</h1>            
+            <!-- <h1>Free Mega Medical Camp Organised on <br>1st December 2024</h1>             -->
+            <h1>Free Health Checkup Camp Organised on this <br>Republic Day <br>26th January 2025</h1>            
 
-            <img src="assets/images/Free Camp Compressed.jpg" alt="Free Medical Camp on 1st December 2024" onclick="window.location.href = 'assets/images/Free Camp.jpg'">
+            <!-- <img src="assets/images/Free Camp Compressed.jpg" alt="Free Medical Camp on 1st December 2024" onclick="window.location.href = 'assets/images/Free Camp.jpg'"> -->
+             
+            <img src="assets/images/SLCF Health Camp 2.jpg" alt="Free Medical Camp on 26th January 2025" onclick="window.location.href = 'assets/images/SLCF Health Camp 2.jpg'">
 
             <br>
             <h3>Location: <a href="https://maps.app.goo.gl/srWsym7B7far3GrM9">Shop no. 9B & 9C, First Floor, Kashinath Building, Above Wellness Forever, Maulana Azad Road, Jacob Circle, Saath Rasta, Mumbai - 400 011</a></h3>
