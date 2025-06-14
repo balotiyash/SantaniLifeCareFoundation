@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the main JavaScript code for the website. It contains the necessary changes to be made on load. Specifically, working for index.php
  * Created on: 01/08/2024
- * Last Modified: 27/11/2024
+ * Last Modified: 14/06/2025
 */
 
 // Window on ready
@@ -76,6 +76,7 @@ $(document).ready(() => {
 
     // Dev Footer
     $("#footerLogo").attr("src", "assets/images/Logo3.png");
-    $("#algoDevsImg").attr("src", "assets/images/AlgoDevs.png");
+    // $("#algoDevsImg").attr("src", "assets/images/AlgoDevs.png");
+    $("#algoDevsImg").attr("src", "assets/images/AlgoDevOpss.png");
     $("#newImage").attr("src", "assets/images/New.png");
 });
