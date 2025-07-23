@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the Job oriented education page.
     Created on: 03/08/2024
-    Last Modified: 25/11/2024
+    Last Modified: 23/07/2025
 -->
 
 <!DOCTYPE html>
@@ -32,7 +32,8 @@
         <!-- Section 2 Education Program -->
         <section class="programSection">
             <h2>Job Oriented Education</h2>
-            <img src="../../assets/images/Education.png" alt="Books">
+            <!-- <img src="../../assets/images/Education.png" alt="Books"> -->
+            <img src="../../assets/images/WORK INTEGRATED EDUCATION PROGRAM - (WIEP).jpg" alt="Books">
 
             <b>Summary</b>
             <p>Job-oriented courses are training and academic courses that prepare professionals for a particular career field or role. A traditional academic course may provide an overview of a certain topic or area, but a job-oriented course focuses on the knowledge and skills required for a particular job.</p>
