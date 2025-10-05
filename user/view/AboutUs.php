@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the About Us page.
     Created on: 01/08/2024
-    Last Modified: 25/11/2024
+    Last Modified: 05/10/2025
 -->
 
 <!DOCTYPE html>
@@ -47,6 +47,8 @@
             <p>Additionally, we <big>empower women</big> by providing them with the resources and opportunities to engage fully in society. Our <big>cultural initiatives</big> celebrate India's rich heritage, using <i>art and culture</i> to bridge communities and promote national unity. Finally, we are committed to <big>animal protection</big>, working to ensure the welfare of <i>stray animals and pets</i> through dedicated support centers.</p>
 
             <p>Through these comprehensive efforts, <b>Santani Life Care Foundation</b> aspires to build a healthier, more equitable society characterized by innovation, inclusivity, and community-driven progress.</p>
+
+            <a href="https://www.canva.com/design/DAGx7O_MU4s/vqf3P65Ybb-kR_6DX-vRIQ/view?utm_content=DAGx7O_MU4s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc5a8ac106b" target="_blank">Explore our initiatives.</a>
         </section>
 
         <!-- Section 3 About Founder -->

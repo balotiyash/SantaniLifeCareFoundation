@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This page contains all the HTML5 code of the index page.
     Created on: 28/07/2024
-    Last Modified: 12/02/2025
+    Last Modified: 05/10/2025
 -->
 
 <!DOCTYPE html>
@@ -31,11 +31,12 @@
     <!-- Main Content Area -->
     <main>
         <!-- Section 0 -->
-        <!-- <section id="freeCampSection"> -->
+        <section id="freeCampSection">
             <!-- <img src="assets/images/Free Camp Compressed.jpg" alt="Free Medical Camp on 1st December 2024" onclick="window.location.href = 'assets/images/Free Camp.jpg'"> -->
             <!-- <img src="assets/images/SLCF Health Camp 2.jpg" alt="Free Medical Camp on 26th January 2025" onclick="window.location.href = 'assets/images/SLCF Health Camp 2.jpg'"> -->
-            <!-- <i class="fa-solid fa-circle-xmark" onclick="document.getElementById('freeCampSection').style.display = 'none';"></i> -->
-        <!-- </section> -->
+            <img src="assets/images/free-surgury-flyer.jpg" alt="Free Medical Camp on 12th October 2025" onclick="window.location.href = 'assets/images/free-surgury-flyer.jpg'">
+            <i class="fa-solid fa-circle-xmark" onclick="document.getElementById('freeCampSection').style.display = 'none';"></i>
+        </section>
 
         <!-- Section 1 Introduction -->
         <section id="bannerSection">
